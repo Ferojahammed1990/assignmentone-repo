@@ -1,3 +1,69 @@
 body{
     font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.section-one{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+.focoused{
+    width: 100%;
+    padding: 40px;
+}
+img{
+   width: 100%;
+   margin-top: 20px;
+   
+
+}
+#color{
+    color:orange
+}
+.button{
+    text-decoration: none;
+    
+    padding:7px 20px;
+    background-color: orangered;
+    border-radius: 5px;
+    color:white;
+    
+}
+
+#border{
+    border-left:3px solid orangered;
+    padding: 5px;
+}
+section-two{
+    margin:50px;
+}
+.main{
+    display: flex;
+    
+}
+.main img{
+    width:80px;
+     
+}
+.mission{
+   
+    background-color: rgb(180, 202, 180);
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+}
+.mission-tow{
+  
+    background-color: rgba(173, 133, 155, 0.719);
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+}
+.mission-three{
+    
+    background-color: rgb(156, 180, 156);
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
 }
