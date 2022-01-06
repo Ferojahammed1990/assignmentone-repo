@@ -1,8 +1,17 @@
+
 body{
     font-family: 'Poppins', sans-serif;
-    width: 80%;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(235, 215, 215);
+
+}
+.main-all{
+    width: 85%;
+    background-color:white;
     margin: auto;
 }
+
 .section-one{
     display: flex;
     width: 100%;
@@ -15,8 +24,14 @@ body{
 img{
    width: 100%;
    margin-top: 20px;
-   
+   border:5px solid rgb(194, 173, 166);
+   border-radius: 70%;
+   box-shadow: 2px 1px 2px 3px black;
 
+}
+#border{
+    font-size: 30px;
+    padding:5px;
 }
 #color{
     color:orange
@@ -66,4 +81,47 @@ section-two{
     border-radius: 10px;
     margin:10px;
     padding:10px;
+}
+.section-three{
+    display: flex;
+    width: 90%
+}
+.develop{
+    width:50%;
+    margin:50px;
+}
+.section-four{
+    display:flex;
+}
+#global{
+    padding:40px
+}
+.latst{
+    display: flex;
+    width:90%
+}
+#colors{
+    color:orangered
+}
+#newton{
+    border:4px solid yellow;
+    border-radius: 60%;
+    box-shadow: 3px 2px 5px 5px black;
+    width:100%
+}
+#feroj{
+    width: 70%;
+}
+#corona{
+    text-align: center;
+    font-size: 60px;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:30px;
+    margin:20px 0px 20px 0px;
+    
 }
